@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <link rel="icon" href="res/images/favicon.ico">
     <title>Hello world!</title>
+    <link rel="stylesheet" href="res/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
+<header id = "welcome">
     <strong>Welcome to your dashboard!</strong>
 </header>
 
-<section>
-    <div>
-        <img src="res/images/me.png" alt="My picture" title="Not really my picture">
+<section >
+    <div >
+        <img src="res/images/me.png" alt="My picture" title="Not really my picture" >
     </div>
-    <div>
-        <ol>
-            <li>John Doe</li>
+    <div class="center">
+        <ol style="list-style-type:none;">
+            <li class="name" style=" font-size:46px;">John Doe</li>
             <li>27/06/1993</li>
             <li>Software Engineering</li>
         </ol>
@@ -32,8 +34,8 @@
         <span>Courses</span>
     </h1>
     <table>
-        <thead>
-        <tr>
+        <thead >
+        <tr style=" color: darkred; font-size: 70px;">
             <th>#</th>
             <th>Course Title</th>
             <th>Semester</th>
@@ -45,39 +47,35 @@
             <td>1</td>
             <td>Agile software development</td>
             <td>1</td>
-            <td>82</td>
+            <td class="grades">82</td>
         </tr>
         <tr>
             <td>2</td>
             <td>System modeling</td>
             <td>1</td>
-            <td>85</td>
+            <td class="grades">85</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Object-oriented programming</td>
             <td>2</td>
-            <td>99</td>
+            <td class="grades">99</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Estonian language Level A2</td>
             <td>2</td>
-            <td>65</td>
+            <td class="grades">65</td>
         </tr>
         </tbody>
     </table>
 </section>
 
-<footer>
-    <ul>
-        <li>
-            <a href="https://ois2.ut.ee/">OIS</a>
-        </li>
-        <li>
-            <a href="https://courses.cs.ut.ee/">Courses</a>
-        </li>
-    </ul>
+<footer class="center">
+    <ul style="list-style-type:none;">
+           <li> <a href="https://ois2.ut.ee/">OIS</a></li>
+        <li><a class="text" href="https://courses.cs.ut.ee/">Courses</a> </li>
+        </ul>
 </footer>
 </body>
 </html>

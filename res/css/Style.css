@@ -1,0 +1,66 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+}
+html, body {
+    margin: 30px 0 0 0;
+    padding: 20;
+    background-color: #f7f7f7;
+}
+
+#welcome{
+color: green;
+text-align: center;
+}
+
+.text {
+color: green;
+}
+
+.grades{
+color: red;
+}
+
+.center{
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: center;
+}
+
+.border{
+border: 3px solid green;
+}
+
+.name{
+color:red;
+}
+
+ol li.name{
+color:blue;
+}
+
+li:first-of-type + li{
+color: blue;
+}
+
+ol li:first-child{
+margin-top: 100px;
+color:darkred;
+}
+
+section {
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 00px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+padding: 30px;
+}
+
